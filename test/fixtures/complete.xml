@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFSe xmlns="http://www.sped.fazenda.gov.br/nfse" versao="1.01">
+  <infNFSe Id="NFS29274082211222333000181000000000001326111231231235">
+    <xLocEmi>Salvador</xLocEmi>
+    <xLocPrestacao>Salvador</xLocPrestacao>
+    <nNFSe>13</nNFSe>
+    <cLocIncid>2927408</cLocIncid>
+    <xLocIncid>Salvador</xLocIncid>
+    <xTribNac>Barbearia, cabeleireiros, manicuros, pedicuros e congêneres.</xTribNac>
+    <xTribMun>Cabeleireiro, manicure e pedicure.</xTribMun>
+    <xNBS>Serviços de cabeleireiros e barbeiros.</xNBS>
+    <verAplic>SefinNac_Pre_1.0.0</verAplic>
+    <ambGer>2</ambGer>
+    <tpEmis>1</tpEmis>
+    <procEmi>1</procEmi>
+    <cStat>102</cStat>
+    <dhProc>2026-11-09T14:30:05-03:00</dhProc>
+    <nDFSe>13</nDFSe>
+    <emit>
+      <CNPJ>11222333000181</CNPJ>
+      <IM>999999</IM>
+      <xNome>Studio Ana Ltda</xNome>
+      <enderNac>
+        <xLgr>Rua das Flores</xLgr>
+        <nro>100</nro>
+        <xBairro>Centro</xBairro>
+        <cMun>2927408</cMun>
+        <UF>BA</UF>
+        <CEP>40000000</CEP>
+      </enderNac>
+      <fone>7133330000</fone>
+      <email>financeiro@studioana.example</email>
+    </emit>
+    <valores>
+      <vCalcDR>100.00</vCalcDR>
+      <vBC>850.00</vBC>
+      <pAliqAplic>5.00</pAliqAplic>
+      <vISSQN>42.50</vISSQN>
+      <vTotalRet>105.78</vTotalRet>
+      <vLiq>824.22</vLiq>
+    </valores>
+    <xOutInf>Nota de teste emitida em homologação.</xOutInf>
+    <IBSCBS>
+      <cLocalidadeIncid>2927408</cLocalidadeIncid>
+      <xLocalidadeIncid>Salvador</xLocalidadeIncid>
+      <valores>
+        <vBC>850.00</vBC>
+        <uf>
+          <pIBSUF>0.10</pIBSUF>
+          <pRedAliqUF>10.00</pRedAliqUF>
+          <pAliqEfetUF>0.09</pAliqEfetUF>
+        </uf>
+        <mun>
+          <pIBSMun>0</pIBSMun>
+          <pRedAliqMun>10.00</pRedAliqMun>
+          <pAliqEfetMun>0</pAliqEfetMun>
+        </mun>
+        <fed>
+          <pCBS>0.90</pCBS>
+          <pRedAliqCBS>10.00</pRedAliqCBS>
+          <pAliqEfetCBS>0.81</pAliqEfetCBS>
+        </fed>
+      </valores>
+      <totCIBS>
+        <vTotNF>824.22</vTotNF>
+        <gIBS>
+          <vIBSTot>0.77</vIBSTot>
+          <gIBSUFTot>
+            <vIBSUF>0.77</vIBSUF>
+          </gIBSUFTot>
+          <gIBSMunTot>
+            <vIBSMun>0.00</vIBSMun>
+          </gIBSMunTot>
+        </gIBS>
+        <gCBS>
+          <vCBS>6.89</vCBS>
+        </gCBS>
+      </totCIBS>
+    </IBSCBS>
+    <DPS versao="1.01">
+      <infDPS Id="DPS292740821122233300018100001000000000000013">
+        <tpAmb>2</tpAmb>
+        <dhEmi>2026-11-09T14:30:00-03:00</dhEmi>
+        <verAplic>nfse-0.1.0</verAplic>
+        <serie>1</serie>
+        <nDPS>13</nDPS>
+        <dCompet>2026-11-09</dCompet>
+        <tpEmit>1</tpEmit>
+        <cLocEmi>2927408</cLocEmi>
+        <subst>
+          <chSubstda>29274082211222333000181000000000001126115555555551</chSubstda>
+          <cMotivo>99</cMotivo>
+          <xMotivo>Correção do valor do serviço.</xMotivo>
+        </subst>
+        <prest>
+          <CNPJ>11222333000181</CNPJ>
+          <IM>123456</IM>
+          <xNome>Studio Ana</xNome>
+          <end>
+            <endNac>
+              <cMun>2927408</cMun>
+              <CEP>40000000</CEP>
+            </endNac>
+            <xLgr>Avenida das Palmeiras</xLgr>
+            <nro>200</nro>
+            <xCpl>Sala 12</xCpl>
+            <xBairro>Jardim Exemplo</xBairro>
+          </end>
+          <fone>71999990000</fone>
+          <email>contato@studioana.example</email>
+          <regTrib>
+            <opSimpNac>1</opSimpNac>
+            <regEspTrib>0</regEspTrib>
+          </regTrib>
+        </prest>
+        <toma>
+          <CNPJ>11444777000161</CNPJ>
+          <IM>7654321</IM>
+          <xNome>Clínica Exemplo Ltda</xNome>
+          <end>
+            <endNac>
+              <cMun>3550308</cMun>
+              <CEP>01310100</CEP>
+            </endNac>
+            <xLgr>Avenida Exemplo</xLgr>
+            <nro>1000</nro>
+            <xBairro>Bela Vista</xBairro>
+          </end>
+          <fone>11988887777</fone>
+          <email>contas@clinicaexemplo.example</email>
+        </toma>
+        <interm>
+          <CPF>11144477735</CPF>
+          <xNome>João Exemplo</xNome>
+          <end>
+            <endNac>
+              <cMun>2927408</cMun>
+              <CEP>40140000</CEP>
+            </endNac>
+            <xLgr>Rua Exemplo</xLgr>
+            <nro>10</nro>
+            <xBairro>Barra</xBairro>
+          </end>
+          <fone>71988886666</fone>
+          <email>joao@intermediario.example</email>
+        </interm>
+        <serv>
+          <locPrest>
+            <cLocPrestacao>2927408</cLocPrestacao>
+          </locPrest>
+          <cServ>
+            <cTribNac>060101</cTribNac>
+            <cTribMun>001</cTribMun>
+            <xDescServ>Corte, escova e manicure para a equipe no evento corporativo.</xDescServ>
+            <cNBS>126021000</cNBS>
+          </cServ>
+          <obra>
+            <inscImobFisc>IMOB123456</inscImobFisc>
+            <cObra>OBRA2026001</cObra>
+          </obra>
+          <atvEvento>
+            <xNome>Feira de Beleza Exemplo</xNome>
+            <dtIni>2026-11-07</dtIni>
+            <dtFim>2026-11-08</dtFim>
+            <idAtvEvt>EVT2026001</idAtvEvt>
+          </atvEvento>
+          <infoCompl>
+            <idDocTec>DRT001</idDocTec>
+            <docRef>Contrato 2026/15</docRef>
+            <xPed>PED4521</xPed>
+            <gItemPed>
+              <xItemPed>1</xItemPed>
+            </gItemPed>
+            <xInfComp>Atendimento realizado no evento corporativo do cliente.</xInfComp>
+          </infoCompl>
+        </serv>
+        <valores>
+          <vServPrest>
+            <vServ>1000.00</vServ>
+          </vServPrest>
+          <vDescCondIncond>
+            <vDescIncond>50.00</vDescIncond>
+            <vDescCond>20.00</vDescCond>
+          </vDescCondIncond>
+          <vDedRed>
+            <vDR>100.00</vDR>
+          </vDedRed>
+          <trib>
+            <tribMun>
+              <tribISSQN>1</tribISSQN>
+              <tpRetISSQN>2</tpRetISSQN>
+              <pAliq>5.00</pAliq>
+            </tribMun>
+            <tribFed>
+              <piscofins>
+                <CST>01</CST>
+                <vBCPisCofins>850.00</vBCPisCofins>
+                <pAliqPis>0.65</pAliqPis>
+                <pAliqCofins>3.00</pAliqCofins>
+                <vPis>5.53</vPis>
+                <vCofins>25.50</vCofins>
+                <tpRetPisCofins>3</tpRetPisCofins>
+              </piscofins>
+              <vRetCP>11.00</vRetCP>
+              <vRetIRRF>12.75</vRetIRRF>
+              <vRetCSLL>8.50</vRetCSLL>
+            </tribFed>
+            <totTrib>
+              <vTotTrib>
+                <vTotTribFed>150.00</vTotTribFed>
+                <vTotTribEst>0.00</vTotTribEst>
+                <vTotTribMun>42.50</vTotTribMun>
+              </vTotTrib>
+            </totTrib>
+          </trib>
+        </valores>
+        <IBSCBS>
+          <finNFSe>0</finNFSe>
+          <indFinal>0</indFinal>
+          <cIndOp>100301</cIndOp>
+          <indDest>1</indDest>
+          <dest>
+            <NIF>999999990</NIF>
+            <xNome>Maria Exemplo</xNome>
+            <end>
+              <endExt>
+                <cPais>PT</cPais>
+                <cEndPost>4400-001</cEndPost>
+                <xCidade>Vila Nova de Gaia</xCidade>
+                <xEstProvReg>Distrito do Porto</xEstProvReg>
+              </endExt>
+              <xLgr>Rua Exemplo</xLgr>
+              <nro>1</nro>
+              <xBairro>Centro</xBairro>
+            </end>
+            <fone>351900000000</fone>
+            <email>maria@destinatario.example</email>
+          </dest>
+          <valores>
+            <trib>
+              <gIBSCBS>
+                <CST>000</CST>
+                <cClassTrib>000001</cClassTrib>
+              </gIBSCBS>
+            </trib>
+          </valores>
+        </IBSCBS>
+      </infDPS>
+    </DPS>
+  </infNFSe>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <Reference URI="#NFS29274082211222333000181000000000001326111231231235">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>ZGlnZXN0LXNpbnRldGljbw==</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>YXNzaW5hdHVyYS1zaW50ZXRpY2E=</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>Y2VydGlmaWNhZG8tc2ludGV0aWNv</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</NFSe>

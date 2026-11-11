@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFSe xmlns="http://www.sped.fazenda.gov.br/nfse" versao="1.00">
+  <infNFSe Id="NFS29274082211222333000181000000000004226111234567890">
+    <xLocEmi>Salvador</xLocEmi>
+    <xLocPrestacao>Salvador</xLocPrestacao>
+    <nNFSe>42</nNFSe>
+    <xTribNac>Barbearia, cabeleireiros, manicuros, pedicuros e congêneres.</xTribNac>
+    <verAplic>SefinNac_Pre_1.0.0</verAplic>
+    <ambGer>2</ambGer>
+    <tpEmis>1</tpEmis>
+    <cStat>100</cStat>
+    <dhProc>2026-11-03T10:00:05-03:00</dhProc>
+    <nDFSe>42</nDFSe>
+    <emit>
+      <CNPJ>11222333000181</CNPJ>
+      <xNome>Studio Ana</xNome>
+      <enderNac>
+        <xLgr>Rua das Flores</xLgr>
+        <nro>100</nro>
+        <xBairro>Centro</xBairro>
+        <cMun>2927408</cMun>
+        <UF>BA</UF>
+        <CEP>40000000</CEP>
+      </enderNac>
+    </emit>
+    <valores>
+      <vLiq>49.90</vLiq>
+    </valores>
+    <DPS versao="1.00">
+      <infDPS Id="DPS292740821122233300018100001000000000000042">
+        <tpAmb>2</tpAmb>
+        <dhEmi>2026-11-03T10:00:00-03:00</dhEmi>
+        <verAplic>nfse-0.1.0</verAplic>
+        <serie>1</serie>
+        <nDPS>42</nDPS>
+        <dCompet>2026-11-03</dCompet>
+        <tpEmit>1</tpEmit>
+        <cLocEmi>2927408</cLocEmi>
+        <prest>
+          <CNPJ>11222333000181</CNPJ>
+          <regTrib>
+            <opSimpNac>3</opSimpNac>
+            <regApTribSN>1</regApTribSN>
+            <regEspTrib>0</regEspTrib>
+          </regTrib>
+        </prest>
+        <toma>
+          <CPF>52998224725</CPF>
+          <xNome>Ana Souza</xNome>
+        </toma>
+        <serv>
+          <locPrest>
+            <cLocPrestacao>2927408</cLocPrestacao>
+          </locPrest>
+          <cServ>
+            <cTribNac>060101</cTribNac>
+            <xDescServ>Corte de cabelo</xDescServ>
+          </cServ>
+        </serv>
+        <valores>
+          <vServPrest>
+            <vServ>49.90</vServ>
+          </vServPrest>
+          <trib>
+            <tribMun>
+              <tribISSQN>1</tribISSQN>
+              <tpRetISSQN>1</tpRetISSQN>
+            </tribMun>
+            <totTrib>
+              <pTotTribSN>6.00</pTotTribSN>
+            </totTrib>
+          </trib>
+        </valores>
+      </infDPS>
+    </DPS>
+  </infNFSe>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#NFS29274082211222333000181000000000004226111234567890">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>ZGlnZXN0LXNpbnRldGljbw==</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>YXNzaW5hdHVyYS1zaW50ZXRpY2E=</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>Y2VydGlmaWNhZG8tc2ludGV0aWNv</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</NFSe>
